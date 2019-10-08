@@ -24,9 +24,6 @@ ___
 
 ## `Boolean Operators Exercise `
 
-Write a function called moreThan5 that takes in a number and returns whether or not it's greater than 5.
-Write a function called topScore that takes in a score (as a number) and a top score (as a number) and returns whether or not the score is greater than the top score. (This would be a good function in a game or gamified app to see if we need to update the high score).
-
 
 ```javascript
 function moreThan5(num) {
@@ -89,8 +86,6 @@ ___
 
 ## `IF/ELSE EXERCISE`
 
-Write a function called isItLong that returns the string 'That's a long string!' if the given string is longer than 20 characters. It should not return anything otherwise. (Explicitly, at least--every function returns undefined if you don't return a value!)
-
 ```javascript
 
 function isItLong(str) {
@@ -140,6 +135,11 @@ function instructorHeight(str) {
 ```
 
 ## `TERNARY OPERATORS`
+
+Different way of writing if/else statements. Takes in three arguments
+1. comparison argument e.g. temp>=80
+2. result if true
+3. result if false 
 
 ```javascript
 function isHot(temp) {
