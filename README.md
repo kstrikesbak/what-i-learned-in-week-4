@@ -86,6 +86,9 @@ ___
 
 ## `IF/ELSE EXERCISE`
 
+This was a great exercise to get us used to the if/else logic. 
+The code block for 'if' will execute based the specified condition is true. If that condition is false, it will work downwards and see if is true against the 'if else'. If none of these are true, then else will be executed.  
+
 ```javascript
 
 function isItLong(str) {
